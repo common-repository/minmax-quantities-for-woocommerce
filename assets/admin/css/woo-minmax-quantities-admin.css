@@ -1,0 +1,35 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+#woocommerce-product-data ul.wc-tabs li.minmax_options a::before {
+    content: "\f108";
+}
+.check-pro-wrap {
+	position: relative;
+	display: block;
+	text-decoration: none;
+	max-width: 600px;
+}
+.form-table.minmax-dummy-form,
+.check-pro-wrap h2 {
+	opacity: 0.6;
+}
+.check-pro-button {
+	text-decoration: none;
+	border: 1px solid #666;
+	font-size: 2rem;
+	color: #FFF;
+	border-radius: 8px;
+	padding: 45px;
+	position: absolute;
+	width: 323px;
+	background: linear-gradient(90deg, rgba(85,85,85,1) 0%, rgba(83,103,107,1) 100%);
+	left: 100px;
+	z-index: 9;
+	top: calc(50% - 50px);
+	display: none;
+}
+.check-pro-wrap:hover .check-pro-button {
+	display: block;
+}
